@@ -102,7 +102,7 @@ const Routes = () => {
       <Router>
         <ScrollTopBehaviour />
         <Switch>
-          <Route exact path="/" component={EventOrganizer} />
+          <Route exact path="/" component={ComingSoon} />
           <Route path="/doc-landing" component={DocLanding} />
           <Route path="/doc-signature" component={DocSignatureLanding} />
           <Route path="/project-management" component={ProjectManagement} />
