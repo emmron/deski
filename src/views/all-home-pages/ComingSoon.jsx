@@ -1,7 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-import logo from "./../../assets/images/assets/logo-dark-oa.png";
+import logo from "./../../assets/images/assets/logo-dark.png";
 const socialContent = [
   {
     icon: "fa-facebook",
