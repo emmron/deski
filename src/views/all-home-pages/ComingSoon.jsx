@@ -34,11 +34,7 @@ const ComingSoon = () => {
           <div className="logo coming-soon-brand" data-aos="fade-up">
             <Link to="/">
               <img src={logo} alt="brand logo" />
-              <img
-                  src="images/media/logo-dark-oa.png"
-                  alt="shape"
-                  className="shapes shape-nine"
-              />
+
             </Link>
           </div>
           <img
@@ -46,11 +42,7 @@ const ComingSoon = () => {
               alt="shape"
               className="shapes shape-nine"
           />
-          <img
-              src="images/logo/logo-dark-oa.png"
-              alt="shape"
-              className="shapes shape-two"
-          />
+
           <h6>COMING SOON</h6>
           <h1 data-aos="fade-up">Get notified when we’r ready to launch!</h1>
           <div className="row">
