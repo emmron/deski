@@ -5,20 +5,15 @@ import logo from "./../../assets/images/assets/logo-dark-oa.png";
 const socialContent = [
   {
     icon: "fa-facebook",
-    link: "https://www.facebook.com/",
+    link: "https://www.facebook.com/ordinaryagencyseo",
   },
   {
     icon: "fa-instagram",
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/ordinaryagency/",
   },
-  {
-    icon: "fa-pinterest-p",
-    link: "https://www.pinterest.com/",
-  },
-
   {
     icon: "fa-linkedin",
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/company/ordinaryagencyseo",
   },
 ];
 
