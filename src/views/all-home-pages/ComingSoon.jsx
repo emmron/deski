@@ -62,7 +62,6 @@ const ComingSoon = () => {
             </div>
           </div>
           <form onClick={handleSubmit}>
-            <input type="email" placeholder="ihidago@ujufidnan.gov" />
             <a href="https://dashboard.mailerlite.com/forms/152846/66826785452459680/share">Find out more!</a>
           </form>
 
