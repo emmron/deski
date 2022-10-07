@@ -62,7 +62,9 @@ const ComingSoon = () => {
             </div>
           </div>
           <form onClick={handleSubmit}>
-            <a href="https://dashboard.mailerlite.com/forms/152846/66826785452459680/share">Find out more!</a>
+            <button href="https://dashboard.mailerlite.com/forms/152846/66826785452459680/share">
+              <a href="https://dashboard.mailerlite.com/forms/152846/66826785452459680/share">Find out more!</a>
+            </button>
           </form>
 
           <ul className="social-icon d-flex justify-content-center">
