@@ -61,11 +61,14 @@ const ComingSoon = () => {
               </p>
             </div>
           </div>
-          <form onClick={handleSubmit}>
-            <button href="https://dashboard.mailerlite.com/forms/152846/66826785452459680/share">
-              <a href="https://dashboard.mailerlite.com/forms/152846/66826785452459680/share">Find out more!</a>
-            </button>
-          </form>
+          <div className="row">
+            <form onClick={handleSubmit}>
+              <button href="https://dashboard.mailerlite.com/forms/152846/66826785452459680/share">
+                <a href="https://dashboard.mailerlite.com/forms/152846/66826785452459680/share">Find out more!</a>
+              </button>
+            </form>
+          </div>
+
 
           <ul className="social-icon d-flex justify-content-center">
             {socialContent.map((val, i) => (
