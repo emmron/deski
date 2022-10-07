@@ -31,7 +31,7 @@ const ComingSoon = () => {
       {/* End Page SEO Content */}
       <div className="full-height-layout d-flex align-items-center">
         <div className="coming-soon-content font-gordita">
-          <div className="logo coming-soon-brand">
+          <div className="logo coming-soon-brand" data-aos="fade-up">
             <Link to="/">
               <img src={logo} alt="brand logo" />
               <img
