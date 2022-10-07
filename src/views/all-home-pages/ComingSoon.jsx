@@ -1,7 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-
+import logo from "./../../assets/images/assets/logo-dark-oa.png";
 const socialContent = [
   {
     icon: "fa-facebook",
@@ -30,7 +30,7 @@ const ComingSoon = () => {
     <>
       <Helmet>
         <title>
-          Appointment Scheduling || Deski-Saas & Software React Template
+          Ordinary Agency || West Perth Digital Agency
         </title>
       </Helmet>
       {/* End Page SEO Content */}
@@ -38,7 +38,12 @@ const ComingSoon = () => {
         <div className="coming-soon-content font-gordita">
           <div className="logo coming-soon-brand">
             <Link to="/">
-              <img src="/images/logo/logo-dark-oa.png" alt="brand logo" />
+              <img src={logo} alt="brand logo" />
+              <img
+                  src="images/media/logo-dark-oa.png"
+                  alt="shape"
+                  className="shapes shape-nine"
+              />
             </Link>
           </div>
           <img
