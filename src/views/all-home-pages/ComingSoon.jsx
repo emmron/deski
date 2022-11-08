@@ -44,7 +44,7 @@ const ComingSoon = () => {
           />
 
           <h6>COMING SOON</h6>
-          <h1 data-aos="fade-up">Get notified when we’r ready to launch!</h1>
+          <h1 data-aos="fade-up">Get notified when we’re ready to launch!</h1>
           <div className="row">
             <div className="col-lg-9 m-auto">
               <p>
