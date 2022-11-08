@@ -33,8 +33,9 @@ const ComingSoon = () => {
         <div className="coming-soon-content font-gordita">
           <div className="logo coming-soon-brand" data-aos="fade-up">
             <Link to="/">
-              <img src={logo} alt="brand logo" />
-
+            <div className="logo-css">
+              <label>oa</label>
+            </div>
             </Link>
           </div>
           <img
@@ -42,8 +43,6 @@ const ComingSoon = () => {
               alt="shape"
               className="shapes shape-nine"
           />
-
-          <h6>COMING SOON</h6>
           <h1 data-aos="fade-up">Get notified when we’re ready to launch!</h1>
           <div className="row">
             <div className="col-lg-9 m-auto">
